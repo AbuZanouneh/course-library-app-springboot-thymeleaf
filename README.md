@@ -1,5 +1,5 @@
 # course-library-app-springboot-thymeleaf
-This is a demo project to learn how to integrate Spring Boot with JavaServer Faces (JSF). It shows how these two technologies can work together in a web application.
+A simple Course Library application implementing CRUD operations for entities such as Student, Book, Category, Author, and Publisher. This project demonstrates how to integrate a Thymeleaf frontend with a Spring Boot backend using Spring MVC.
 
 # Prerequisites
 Before you begin, ensure you have met the following requirements:
@@ -43,25 +43,18 @@ To set up the database, you must first create it using the provided SQL file:
 
 4. Running the Application
    
-You can access it at the following -- URL: http://localhost:8080/ui/home.xhtml
-
-5. Login Credentials
-
-To access the system, use the following credentials:
-
-- **Username:** admin
-- **Password:** admin123
+You can access it at the following -- URL: http://localhost:8080/index.html
 
 # Technologies Used
   * Backend:
      * Spring Boot
+     * Spring MVC
      * Spring Data JPA
-     * Spring Security
      * Maven
-     * JavaServer Faces (JSF)
      * MySQL (Optional)
   * Frontend:
-     * JavaServer Faces (JSF)
+     * Thymeleaf
+     * Bootstrap 
   * Others:
      * Git (Optional)
      * Postman (Optional)
